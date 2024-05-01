@@ -41,4 +41,9 @@ public class Reservas {
     public String toString() {
         return "Reserva - Fecha: " + fecha + " - Turno: " + turno + " - Comensales: " + numComensales + " - Ubicación: " + ubicacion + " - " + clientes;
     }
+
+    public Mesa getMesa() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getMesa'");
+    }
 }
